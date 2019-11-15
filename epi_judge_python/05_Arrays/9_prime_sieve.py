@@ -12,7 +12,6 @@ def generate_primes(n):
 
 			for j in range(i, len(is_prime), i):
 				is_prime[j] = False
-				
 	return res
 
 
